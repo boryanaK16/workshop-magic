@@ -32,11 +32,11 @@ SoftUni JS Back-End Course Workshop
 - [x] Add routes
 - [x] Add 404 page
 - [x] Ready body data
-- [ ] Create movie
-  - [ ] Add action
-  - [ ] Add service
-  - [ ] Add model method for creating movie
-- [ ] Redirect after creation
+- [x] Create movie
+  - [x] Add action
+  - [x] Add service
+  - [x] Add repository
+- [x] Redirect after creation
 - [ ] Add unique if for each created movie
 
 ### Details
