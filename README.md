@@ -51,15 +51,15 @@ SoftUni JS Back-End Course Workshop
 
 - [x] Show static search page
 - [x] Render all movies
-- [ ] Modify search form
-- [ ] Filter movies
-  - [ ] By year
-  - [ ] By genre
-  - [ ] By title
-- [ ] Remember search words
+- [x] Modify search form
+- [x] Filter movies
+  - [x] By year
+  - [x] By genre
+  - [x] By title
+- [x] Remember search words
 
 ### Bonuses
 
-- [ ] Dynamic page title (basic)
+- [x] Dynamic page title (basic)
 - [ ] Rating (temp solution)
 - [x] File Persistance
