@@ -37,7 +37,7 @@ SoftUni JS Back-End Course Workshop
   - [x] Add service
   - [x] Add repository
 - [x] Redirect after creation
-- [ ] Add unique if for each created movie
+- [x] Add unique if for each created movie
 
 ### Details
 
