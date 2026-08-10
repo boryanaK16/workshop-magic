@@ -13,12 +13,12 @@ SoftUni JS Back-End Course Workshop
 - [x] Setup Handlebars `npm i express-handlebars`
 - [x] Render Home Page
 - [x] Setup static files
-- [ ] Render About Page
-- [ ] Add Layout
+- [x] Render About Page
+- [x] Add Layout
 
 ### Architecture and dynamic rendering
 
-- [ ] Add home controller
+- [x] Add home controller
 - [ ] Add movie data layer
 - [ ] Add movie service
 - [ ] Render movies on home page
