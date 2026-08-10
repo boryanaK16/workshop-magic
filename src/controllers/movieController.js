@@ -3,19 +3,20 @@ import movieService from '../services/movieService.js';
 
 const movieController = Router();
 
-movieController.get('/create' , (req, res) => {
+movieController.get('/create', (req, res) => {
     res.render('movies/create')
 })
 
-movieController.post('/create' , async (req, res) => {
+movieController.post('/create', async (req, res) => {
     const newMovie = req.body;
     await movieService.create(newMovie);
     res.redirect('/')
 })
 
-movieController.get('/:id', async (req, res) => {
+movieController.get('/:movieId', async (req, res) => {
     const movieId = req.params.movieId;
-    res.render('movies/details')
+    const movie = await movieService.getById(movieId);
+    res.render('movies/details', { movie })
 })
 
 export default movieController;
