@@ -15,4 +15,8 @@ app.get('/', (req, res) => {
     res.render('home', {layout: false});
 })
 
+app.get('/about', (req, res) => {
+    res.render('about', {layout: false});
+})
+
 app.listen(5000, () => console.log('Servel is listening on http://localhost:5000...'))
