@@ -1,0 +1,70 @@
+{
+    "movies": [
+        {
+            "_id": "a3682672-0ee4-1284-8759-35ee253329zv",
+            "title": "Jungle Cruise",
+            "genre": "Adventure",
+            "description": "Dreaming about saving countless lives and having another adventure, the feisty English feminist and doctor of botany, Dr. Lily Houghton, travels from London to the Amazon jungle and enlists the services of a wisecracking skipper to guide her downriver.",
+            "imageUrl": "/img/jungle-cruise.jpeg",
+            "director": "Jaume Collet-Serra",
+            "year": "2021",
+            "rating": 6.6,
+            "category": "movie"
+        },
+        {
+            "_id": "z2682672-0ee4-1534-8759-35ee253329ty",
+            "title": "Man of Steel",
+            "genre": "Superhero",
+            "description": "An alien child is evacuated from his dying world and sent to Earth to live among humans. His peace is threatened when other survivors of the doomed planet invade Earth.",
+            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5TY00@@._V1_FMjpg_UX1000_.jpg",
+            "director": "Zack Snyder",
+            "year": "2013",
+            "rating": 7.1,
+            "category": "movie"
+        },
+        {
+            "_id": "f3682672-0ee4-1534-8759-35ee253329xy",
+            "title": "The Batman",
+            "genre": "Action",
+            "description": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and confront a criminal conspiracy that threatens everything he knows.",
+            "imageUrl": "/img/the-batman.jpeg",
+            "director": "Matt Reeves",
+            "year": "2022",
+            "rating": 7.8,
+            "category": "movie"
+        },
+        {
+            "_id": "b4782672-0ee4-1534-8759-35ee253329ab",
+            "title": "Inception",
+            "genre": "Sci-Fi",
+            "description": "A skilled thief who enters the dreams of others is offered a chance to have his criminal history erased if he can successfully plant an idea in the mind of a target.",
+            "imageUrl": "/img/inception.jpeg",
+            "director": "Christopher Nolan",
+            "year": "2010",
+            "rating": 8.8,
+            "category": "movie"
+        },
+        {
+            "_id": "c5782672-0ee4-1534-8759-35ee253329ac",
+            "title": "Interstellar",
+            "genre": "Sci-Fi",
+            "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival as Earth becomes increasingly uninhabitable.",
+            "imageUrl": "/img/interstellar.jpeg",
+            "director": "Christopher Nolan",
+            "year": "2014",
+            "rating": 8.7,
+            "category": "movie"
+        },
+        {
+            "_id": "d6782672-0ee4-1534-8759-35ee253329ad",
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "genre": "Fantasy",
+            "description": "A young hobbit begins a dangerous journey to destroy a powerful ring before its dark creator can use it to conquer Middle-earth.",
+            "imageUrl": "/img/lord-of-the-rings.jpeg",
+            "director": "Peter Jackson",
+            "year": "2001",
+            "rating": 8.9,
+            "category": "movie"
+        }
+    ]
+}
