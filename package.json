@@ -4,7 +4,7 @@
   "description": "SoftUni JS Back-End Course Workshop",
   "main": "index.js",
   "scripts": {
-    "start" : "node src/index.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/boryanaK16/workshop-magic/issues"
   },
-  "homepage": "https://github.com/boryanaK16/workshop-magic#readme"
+  "homepage": "https://github.com/boryanaK16/workshop-magic#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
