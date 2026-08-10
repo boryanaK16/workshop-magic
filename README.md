@@ -61,5 +61,5 @@ SoftUni JS Back-End Course Workshop
 ### Bonuses
 
 - [x] Dynamic page title (basic)
-- [ ] Rating (temp solution)
+- [x] Rating (temp solution)
 - [x] File Persistance
