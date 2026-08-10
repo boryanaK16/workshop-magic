@@ -1,5 +1,5 @@
-import {Router} from 'express'
-import movieService from '../services/movieService';
+import { Router } from 'express'
+import movieService from '../services/movieService.js';
 // import { getAllMovies } from '../repositories/movieRepository.js';
 
 const homeController = Router();
@@ -7,8 +7,7 @@ const homeController = Router();
 homeController.get('/', async (req, res) => {
     const movies = await movieService.getAll()
 
-    console.log(movies);
-    res.render('home');
+    res.render('home', { movie: movies[5] });
 })
 
 homeController.get('/about', (req, res) => {
