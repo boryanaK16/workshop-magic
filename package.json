@@ -4,8 +4,9 @@
   "description": "SoftUni JS Back-End Course Workshop",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node --watch src/index.js"
+    "start": "tsx src/index.js",
+    "dev": "tsx src/index.js",
+    "generate:client": "prisma generate"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,19 @@
   },
   "homepage": "https://github.com/boryanaK16/workshop-magic#readme",
   "dependencies": {
+    "@prisma/adapter-pg": "^7.9.1",
+    "@prisma/client": "^7.9.1",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "express-handlebars": "^9.0.1",
+    "pg": "^8.23.0",
     "uuid": "^14.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/pg": "^8.21.0",
+    "prisma": "^7.9.1",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
   }
 }
