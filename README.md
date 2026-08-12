@@ -96,7 +96,9 @@ SoftUni JS Back-End Course Workshop
 - [x] Add artist page
 - [x] Add artist controller
 - [x] Add artist controller to router
-- [] Add header name
+- [x] Add header link
+- [x] Modify create form
+- [] Add artist post action
 - [] Add artist service
 - [] Add artist repository
 
