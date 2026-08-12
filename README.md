@@ -110,8 +110,9 @@ SoftUni JS Back-End Course Workshop
 - [x] Attach functionality
 
 ### Show Artists on Details Page
-- [] Link to attach page
-
+- [x] Link to attach page
+- [x] Link to Attach page
+- [x] Show dynamic cast
 
 ## Bonuses
 - [ ] Search filter in db
