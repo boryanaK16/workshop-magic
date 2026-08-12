@@ -88,3 +88,5 @@ SoftUni JS Back-End Course Workshop
 - [x] Create Movie
 - [x] Refactor Read all movies
 - [x] Movie Details page
+- [] Search filter in db
+- [] Remove file persistance related code
