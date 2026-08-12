@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsx src/index.js",
-    "dev": "tsx src/index.js",
+    "dev": "tsx --watch src/index.js",
     "generate:client": "prisma generate"
   },
   "repository": {

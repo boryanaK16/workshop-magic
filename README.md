@@ -72,10 +72,19 @@ SoftUni JS Back-End Course Workshop
 
 ### Setup Database
 - [x] Install and setup typescript support
-- [x] Change npm start script to use tsx --watch src/index.js
+- [x] Change npm start script to use tsx `tsx --watch src/index.js`
 - [x] Install prisma related packages
-- [x] Initialize prisma npm prisma init --output ./generated/prisma
+- [x] Initialize prisma `npx prisma init --output ../generated/prisma`
 - [x] Add database_url env variable
-- [x] Generate first client npm prisma generate
+- [x] Generate first client `npx prisma generate`
+- [x] Instantiate prisma client
 
-### Setup Models
+### Setup models
+- [x] Add Movie model
+- [x] Migrate database `npx prisma migrate dev --name add_movies_table` or `npx prisma db push`
+
+### Refactor Movies
+- [x] Remove uuid
+- [x] Create Movie
+- [x] Refactor Read all movies
+- [x] Movie Details page

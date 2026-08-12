@@ -19,20 +19,22 @@ async function writeDb(db) {
 }
 
 async function getAll(filter = {}) {
-    let movies = await readDb('movies');
+    // let movies = await readDb('movies');
+    let movies = await prisma.movie.findMany();
 
+    //TODO: Implement filtering by title, year and genre
     //Partial case insentive search
     if (filter.search) {
         movies = movies.filter(movie => movie.title.toLowerCase().includes(filter.search.toLowerCase()))
     }
 
     //Exact search
-    if(filter.year) {
+    if (filter.year) {
         movies = movies.filter(movie => movie.year === filter.year)
     }
 
     //Exaxt case insensitive
-    if(filter.genre) {
+    if (filter.genre) {
         movies = movies.filter(movie => movie.genre.toLowerCase() === filter.genre.toLowerCase())
     }
 
@@ -40,8 +42,10 @@ async function getAll(filter = {}) {
 }
 
 async function getById(movieId) {
-    const movies = await readDb('movies');
-    const movie = movies.find(m => m.id === movieId);
+    const movie = await prisma.movie.findUnique({
+        where: { id: movieId }
+    })//readDb('movies');
+    // const movie = movies.find(m => m.id === movieId);
 
     if (!movie) {
         throw new Error("No movie found!");
@@ -58,7 +62,7 @@ async function create(movieData) {
     const movie = await prisma.movie.create({
         data: movieData
     })
-    return movie;   
+    return movie;
 }
 
 const movieRepositorie = {
