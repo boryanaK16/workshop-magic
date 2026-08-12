@@ -4,14 +4,14 @@ import movieService from '../services/movieService.js';
 const movieController = Router();
 
 movieController.get('/search', async (req, res) => {
-    const filter  = req.query;
-    
+    const filter = req.query;
+
     const movies = await movieService.getAll(filter);
-    res.render('movies/search', {movies, filter, pageTitle: 'Search Movies'})
+    res.render('movies/search', { movies, filter, pageTitle: 'Search Movies' })
 })
 
 movieController.get('/create', (req, res) => {
-    res.render('movies/create', {pageTitle: 'Create Movie'})
+    res.render('movies/create', { pageTitle: 'Create Movie' })
 })
 
 movieController.post('/create', async (req, res) => {
@@ -27,11 +27,13 @@ movieController.get('/:movieId', async (req, res) => {
     //Prepare view data : TODO: Fix it
     const ratingStars = '&#x2605'.repeat(Math.floor(movie.rating));
 
-    res.render('movies/details', { movie, pageTitle: 'Movie Details', ratingStars})
+    res.render('movies/details', { movie, pageTitle: 'Movie Details', ratingStars })
 })
 
 movieController.get('/:movieId/attach', async (req, res) => {
-    res.render('movies/attach', { pageTitle: 'Attach Details'})
+    const movieId = req.params.movieId;
+    const movie = await movieService.getById(movieId);
+    res.render('movies/attach', { pageTitle: 'Attach Details', movie })
 });
 
 export default movieController;
