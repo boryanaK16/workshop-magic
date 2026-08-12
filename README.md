@@ -77,3 +77,5 @@ SoftUni JS Back-End Course Workshop
 - [x] Initialize prisma npm prisma init --output ./generated/prisma
 - [x] Add database_url env variable
 - [x] Generate first client npm prisma generate
+
+### Setup Models
