@@ -88,5 +88,19 @@ SoftUni JS Back-End Course Workshop
 - [x] Create Movie
 - [x] Refactor Read all movies
 - [x] Movie Details page
-- [] Search filter in db
-- [] Remove file persistance related code
+- [x] Remove file persistance related code
+
+### Cast
+- [] Add resources
+- [] Add cast model
+- [] Add cast page
+- [] Add cast controller
+- [] Add cast service
+- [] Add cast repository
+
+
+
+
+
+## Bonuses
+- [ ] Search filter in db
